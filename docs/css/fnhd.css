@@ -5,10 +5,7 @@ div.outer_container{
 }
 
 div.mid_container, .navirahmen, div.inner_container {
-  max-width: 51em;
-  height: auto;
-  margin: 0 auto;
-  position: relative;
+  max-width: 51rem;
 }
 
 
@@ -296,7 +293,7 @@ label.char {
 .nachnavi {
   margin-top: 1em;
 }
-.navi3, .navi, .navi2, .mini_navi {
+.navi3, .navi, .navi2, .mini_navi, nav {
   font-size: 85%;
   letter-spacing: 0.1ex;
 }
@@ -449,6 +446,7 @@ h1.title {
   text-align: center;
 }
 h1.subtitle{
+  margin-top: 0;
   font-size: 120%;
   letter-spacing: 0.25ex;
 }
@@ -836,7 +834,7 @@ div.references div, div.references p{
 }
 
 .figure p {
-  text-align: justified;
+  text-align: justify;
 }
 
 table {
@@ -875,7 +873,7 @@ div.references div, div.references p{
 }
 
 .figure p {
-  text-align: justified;
+  text-align: justify;
 }
 
 table {
@@ -913,7 +911,7 @@ div.references div, div.references p{
 }
 
 .figure p {
-  text-align: justified;
+  text-align: justify;
 }
 
 table {
@@ -1021,19 +1019,18 @@ p, li {
 
   p, li {
     text-align: justify;
+    hyphens: auto;
     
   }
   
   nav > ul {
 		flex-direction: row;
-		min-height: 2.5em;
-    max-height: 3em;
+		height: 2.5em;
 	}
 
   nav li {
     text-align: center;
 		flex: auto;
-		font-size: 1em;
 	}
 
 }
